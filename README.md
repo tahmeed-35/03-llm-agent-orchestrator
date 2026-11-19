@@ -1,4 +1,4 @@
-﻿# Modular LLM Agent Orchestration & Tool-Calling
+# Modular LLM Agent Orchestration & Tool-Calling
 
 A modular, config-driven agent execution engine implementing an autonomous tool-calling loop, exponential backoff retries, configurable timeouts, and structured JSON telemetry.
 
@@ -15,7 +15,7 @@ A modular, config-driven agent execution engine implementing an autonomous tool-
 
 ```
 03-llm-agent-orchestrator/
-├── ci/
+├── .github/workflows/
 │   └── ci.yml               # Automated CI test pipeline configuration
 ├── configs/
 │   └── agent_config.yaml    # Agent, model, execution & logging settings
